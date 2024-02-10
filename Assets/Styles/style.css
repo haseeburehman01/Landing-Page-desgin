@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+    background-image: url(../Images/developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_container {
+    color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 16px;
+}
+
+.lg-text {
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.box-1 {
+    background-color: #161619;
+    padding: 20px;
+}
+
+.box-1 h2 {
+    font-weight: 200;
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+}
+
+.box-1 h2 span {
+    font-weight: 500;
+    font-size: 96px;
+}
+.work {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.img-container {
+    width: 320px;
+    height: 380px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    overflow: hidden;
+}
+
+.content-card {
+    padding: 10px;
+}
+
+.box-two {
+    margin-top: 80px;
+    display: flex;
+}
+
+.box-2 {
+    width: 720px;
+    height: 338px;
+    background-color: #515603;
+}
+.box-3 {
+    width: 720px;
+    height: 338px;
+    background-color: #722300;
+}
+
+.content-box {
+    padding: 50px;
+    line-height: 30px;
+} 
+
+.content-box h1 {
+    color: white;
+}
+.cont-box {
+    padding: 50px;
+    line-height: 30px;
+}
+
+.cont-box h1 {
+    color: white;
+} 
+
+.cont-box p {
+    color: white;
+}
+
+.content-box p {
+    color: white;
+}
+
+.dark-box div h1{
+    background-color: #161619;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
